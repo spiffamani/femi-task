@@ -4,7 +4,7 @@ public static int alphabet(String alpha  ,  char occurances){
 int checklist = 0;
 
 for(int alphaindex = 0; alphaindex < alpha.length(); alphaindex++){
-String result = alpha.toLower();
+String result = alpha.toLowerCase();
 
 
 if(result.charAt(alphaindex) == occurances ){
